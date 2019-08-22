@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.accelerometer_geolocation" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.accelerometer_geolocation"
+	version="1.0.0" xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Accelerometer And Geolocation</name>
     <description>
       some stuff.
@@ -9,19 +11,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-
-	
-
-
-    	 <plugin spec="https://github.com/apache/cordova-plugin-geolocation.git" source="npm"/> 
-         
-         <plugin name="cordova-plugin-geolocation" spec="" />
-
-	<plugin name="cordova-plugin-device-motion" spec="" />
-	
-
-	
-
-
-
 </widget>
